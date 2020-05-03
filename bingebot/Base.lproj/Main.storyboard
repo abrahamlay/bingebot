@@ -62,6 +62,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8w-Qo-aU3">
                                                 <rect key="frame" x="91" y="75.000000000000028" width="192" height="40"/>
                                                 <state key="normal" image="binge-btn"/>
+                                                <connections>
+                                                    <action selector="randomBingeShowButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c5d-6U-fSX"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -78,6 +81,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzM-lW-1B6">
                                                 <rect key="frame" x="0.0" y="54" width="374" height="40"/>
                                                 <state key="normal" image="add-show-btn"/>
+                                                <connections>
+                                                    <action selector="onAddShowButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PCX-FJ-82T"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -106,6 +112,7 @@
                         <outlet property="addShowStackView" destination="Acb-V2-fam" id="K8C-3U-KJe"/>
                         <outlet property="bingebotSpokenLabel" destination="eU8-R3-crS" id="xyo-fS-3ci"/>
                         <outlet property="enterShowTextField" destination="IAa-oB-Fau" id="9Fl-wR-817"/>
+                        <outlet property="randomShowButton" destination="x8w-Qo-aU3" id="bXv-Z0-NjU"/>
                         <outlet property="randomShowStackView" destination="htT-cI-mqe" id="2da-Nc-eNS"/>
                         <outlet property="randomedShowLabel" destination="v4C-38-3kn" id="veu-sq-GjP"/>
                         <outlet property="showsLabel" destination="kgX-wI-a3i" id="Osd-sX-ggN"/>
